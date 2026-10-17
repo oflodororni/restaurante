@@ -1,0 +1,34 @@
+# Entorno / secretos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+
+# Flask / SQLAlchemy
+instance/
+*.db
+*.sqlite3
+
+# Herramientas
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Editores / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
